@@ -328,7 +328,7 @@ hr {
     width: 65%;
     margin: auto;
     font-size: 0.6rem;
-    margin-top: 10px;
+    margin-top: 10px; 
 }
 
 .mainframe {
@@ -397,6 +397,13 @@ sign-3 {
     --color1: sandybrown;
     font-family: ZCOOL XiaoWei;
     }
+
+sign-4 {
+    text-shadow: 0 0 5px var(--color1);
+    color: lightseagreen;
+    --color1: darkcyan;
+    font-family: ZCOOL XiaoWei;
+}
 
 sign-ani {
     --interval: 1s;
