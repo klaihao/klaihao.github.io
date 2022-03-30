@@ -1,4 +1,4 @@
-.leftb-sub {
+.main-cont-sub {
     background-color: #ffffff0f;
     margin: 25px;
     border-radius: 5px;
@@ -20,8 +20,14 @@
     text-indent: 2em;
 }
 
+#main-content {
+    display:flex;
+    flex-direction:row;
+}
+/*Left Bar*/
 #leftb {
     text-align: center;
+    position: relative;
 }
 
 #leftb1 {
@@ -42,6 +48,41 @@
 #leftb4 {
     width: 300px;
     height: 170px;
+}
+
+#leftb5 {
+    width: 300px;
+    height: 100px;
+}
+
+/*Mid Bar*/
+#mid-leftb {
+    text-align: center;
+}
+
+#leftbm1 {
+    width: 300px;
+    height: 150px;
+}
+
+#leftbm2 {
+    width: 300px;
+    height: 150px;
+}
+
+#leftbm3 {
+    width: 300px;
+    height: 150px;
+}
+
+#leftbm4 {
+    width: 300px;
+    height: 170px;
+}
+
+#leftbm5 {
+    width: 300px;
+    height: 100px;
 }
 
 c1, c2, c3, c4, c5, c6 {
