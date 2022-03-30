@@ -405,6 +405,13 @@ sign-4 {
     font-family: ZCOOL XiaoWei;
 }
 
+sign-5 {
+    text-shadow: 0 0 5px var(--color1);
+    color: #ca7dfd;
+    --color1: #b343fd;
+    font-family: ZCOOL XiaoWei;
+}
+
 sign-ani {
     --interval: 1s;
     display: block;
