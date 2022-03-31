@@ -17,7 +17,13 @@
     left: 5px;
     right: 10px;
     text-align: left;
+}
+.content-indent {
     text-indent: 2em;
+}
+
+.p-indent {
+    text-indent: 1em;
 }
 
 #main-content {
@@ -55,14 +61,14 @@
     height: 100px;
 }
 
-/*Mid Bar*/
+/*Mid-Left Bar*/
 #mid-leftb {
     text-align: center;
 }
 
 #leftbm1 {
     width: 300px;
-    height: 200px;
+    height: 250px;
 }
 
 #leftbm2 {
@@ -81,6 +87,37 @@
 }
 
 #leftbm5 {
+    width: 300px;
+    height: 100px;
+}
+
+/*Mid-Right Bar*/
+#mid-rightb {
+    text-align: center;
+    position: relative;
+}
+
+#rightbm1 {
+    width: 300px;
+    height: 250px;
+}
+
+#rightbm2 {
+    width: 300px;
+    height: 150px;
+}
+
+#rightbm3 {
+    width: 300px;
+    height: 150px;
+}
+
+#rightbm4 {
+    width: 300px;
+    height: 170px;
+}
+
+#rightbm5 {
     width: 300px;
     height: 100px;
 }
@@ -116,7 +153,6 @@ c2 {
 
 c3 {
     font-size: 1rem;
-
 }
 
 c4 {
