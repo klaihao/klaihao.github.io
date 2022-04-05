@@ -9,12 +9,10 @@
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
 
-	<title>PATATION</title>
+	<title>PATATION 的小破站 - 坦克大战</title>
 
 	<link rel="stylesheet" href="../css/font_zcoolxiaowei.css" type="text/css" />
 	<link rel="stylesheet" href="../css/font_orbitron.css" type="text/css" />
-	<link rel="stylesheet" href="css/default.css" type="text/css" />
-	<link rel="stylesheet" href="../css/sub_style.css" type="text/css" />
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/Helper.js"></script>
@@ -41,7 +39,17 @@
 			s.parentNode.insertBefore(hm, s);
 		})();
 	</script>
-	<script src="../js/index.js"></script>
+
+	<script type="text/javascript">
+		var timestamp = new Date().getTime();
+		var versionStamp = sessionStorage.version;
+		if (versionStamp == null || (timestamp - versionStamp) > 1800000) {
+			sessionStorage.version = timestamp;
+		}
+		document.write("<script type='text/javascript' src='../js/index.js?v=" + sessionStorage.version + "'><" + '/' + "script>");
+		document.write("<link rel='stylesheet' type='text/css' href='../css/sub_style.css?v=" + sessionStorage.version + "'><" + '/' + "script>");
+        document.write("<link rel='stylesheet' type='text/css' href='css/default.css?v=" + sessionStorage.version + "'><" + '/' + "script>");
+	</script>
 
 	<style type="text/css">
 		#canvasDiv canvas {
