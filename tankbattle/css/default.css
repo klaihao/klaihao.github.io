@@ -274,8 +274,24 @@ body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
 	color: #fff;
 }
 
-@media screen and (max-width: 40em) {
+.sub {
+	display: flex;
+	flex-direction: row;
+}
 
+.subframe {
+	margin-top: 0;
+}
+
+.content-tip {
+	margin: 2rem;
+}
+
+#footer {
+	margin-top: 0;
+}
+
+@media screen and (max-width: 40em) {
 	.htmleaf-icon span {
 		display: none;
 	}
