@@ -1,31 +1,46 @@
 ﻿<!DOCTYPE html>
 <html lang="zh" >
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-		<meta http-equiv="Pragma" content="no-cache" />
-		<meta http-equiv="Expires" content="0" />
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
 
-		<title>PATATION</title>
+	<title>PATATION 的小破站</title>
 
-		<script>
-			var _hmt = _hmt || [];
-			(function () {
-				var hm = document.createElement("script");
-				hm.src = "https://hm.baidu.com/hm.js?a6186b22c5f4b97bc50936f8184b4ffc";
-				var s = document.getElementsByTagName("script")[0];
-				s.parentNode.insertBefore(hm, s);
-			})();
-		</script>
+	<script>
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?a6186b22c5f4b97bc50936f8184b4ffc";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 
-		<script src="js/jquery.particleground.min.js"></script>
-		<script src="js/index.js"></script>
+	<script type="text/javascript">
+		var timestamp = new Date().getTime();
+		var versionStamp = sessionStorage.version;
+		if (versionStamp == null || (timestamp - versionStamp) > 1800000) {
+			sessionStorage.version = timestamp;
+		}
+		document.write("<script type='text/javascript' src='js/index.js?v=" + sessionStorage.version + "'><" + '/' + "script>");
+		document.write("<link rel='stylesheet' type='text/css' href='css/style.css?v=" + sessionStorage.version + "'><" + '/' + "script>");
+	</script>
 
-		<link rel="stylesheet" href="css/font_zcoolxiaowei.css">
-		<link rel="stylesheet" href="css/font_orbitron.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
+	<script src="js/jquery.particleground.min.js"></script>
+	<!--
+	<script src="js/index.js"></script>
+	-->
+
+
+	<link rel="stylesheet" href="css/font_zcoolxiaowei.css">
+	<link rel="stylesheet" href="css/font_orbitron.css">
+	<!--
+	<link rel="stylesheet" href="css/style.css">
+	-->
+</head>
 
 	<body>
 		
