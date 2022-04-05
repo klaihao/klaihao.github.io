@@ -6,11 +6,34 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>PATATION</title>
+	<title>PATATION 的博客</title>
+
+	<script>
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?a6186b22c5f4b97bc50936f8184b4ffc";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+
+	<script type="text/javascript">
+		var timestamp = new Date().getTime();
+		var versionStamp = sessionStorage.version;
+		if (versionStamp == null || (timestamp - versionStamp) > 1800000) {
+			sessionStorage.version = timestamp;
+		}
+		document.write("<script type='text/javascript' src='../js/index.js?v=" + sessionStorage.version + "'><" + '/' + "script>");
+		document.write("<link rel='stylesheet' type='text/css' href='../css/sub_style.css?v=" + sessionStorage.version + "'><" + '/' + "script>");
+	</script>
 
 	<link rel="stylesheet" href="../css/font_zcoolxiaowei.css" type="text/css" />
 	<link rel="stylesheet" href="../css/font_orbitron.css" type="text/css" />
+	<!--
 	<link rel="stylesheet" href="../css/sub_style.css" type="text/css" />
+	-->
+
 
 </head>
 
